@@ -1,0 +1,26 @@
+/* .search {
+    -webkit-appearance: none;
+    border: none;
+    outline: none;
+    padding: 10px;
+    width: 150px;
+    line-height: 30px;
+    margin-bottom: 30px;
+} */
+
+.search {
+    margin: 40px 0;
+    border: none;
+    border-bottom: 1px solid #95dada;
+    padding: 4px 8px;
+    width: 400px;
+    font-size: 24px;
+    transition: all 0.2s;
+
+    background-color: transparent;
+    color: #fff;
+}
+
+.search::placeholder {
+    color: rgba(255, 255, 255, .6)
+}
